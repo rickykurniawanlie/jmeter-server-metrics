@@ -1,0 +1,9 @@
+apiVersion: 1
+
+providers:
+- name: 'fs-dashboard-provider'
+  # <string, required> name of the dashboard folder. Required
+  folder: 'jmeter-server-metrics'
+  type: file
+  options:
+    path: /override/grafana/provisioning/dashboards

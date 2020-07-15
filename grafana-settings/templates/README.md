@@ -1,0 +1,1 @@
+Folder to store Grafana templates to help you configure.
